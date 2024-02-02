@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Search App</title>
+    <link href="poke.css" rel="stylesheet">
+    
+</head>
+<body>
+  <h1>Pokémon Search App</h1>
+  <div class="main-container">
+    
+    <div class="input">
+      <form id="search-form">
+        <label for="search-input">Search for your Pokémon</label>
+        <div id="btn-inp">
+        <input id="search-input" value=""
+ required ="" type="text"></input>
+        <button id="search-button">Search</button>
+        </div>
+      </form>
+    </div>
+    <div class="output">
+      <div class = "top-container">
+        <div class="name-and-id">
+          <span id="pokemon-name"></span>
+          <span id="pokemon-id"></span>
+        </div>
+       <div class="size">
+         <span id="weight"></span>
+         <span id="height"></span>
+       </div>
+       <div id="types">
+       </div>
+       <div id="sprite-container" class="sprite-container">
+       </div>
+       
+
+      </div>
+      <div class="bottom-container">
+       <table>
+         <tbody>
+           <tr>
+             <th>Base</th>
+             <th>Stats</th>
+           </tr>
+           <tr>
+             <td>HP:</td>
+             <td id="hp"></td>
+          </tr>
+           <tr>
+             <td>Attack:</td>
+             <td id="attack"></td>
+           </tr>
+           <tr>
+             <td>Defense:</td>
+             <td id="defense"></td>
+           </tr>
+           <tr>
+             <td>Sp. Attack:</td>
+             <td id="special-attack"></td>
+           </tr>
+           <tr>
+             <td>Sp. Defense</td>
+             <td id="special-defense">
+           </tr>
+           <tr>
+             <td>Speed: </td>
+             <td id="speed"></td>
+           </tr>
+            
+           
+
+           
+         </tbody>
+       </table>
+       
+      </div>
+      
+      
+    </div>
+
+  </div>
+
+
+<script src="poke.js"></script>
+</body>
